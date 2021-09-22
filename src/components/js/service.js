@@ -16,6 +16,11 @@ export default class Service {
       kitty: '0x9312e2681EC932ab10a8733F4Ff60B4068D32B6F',
       market: '0xe59ff6CF2f513Ea166D6af2226D78705906EA6bB',
     },
+    '0x20b': {
+      // Findora Devnet
+      kitty: '0x9312e2681EC932ab10a8733F4Ff60B4068D32B6F',
+      market: '0xe59ff6CF2f513Ea166D6af2226D78705906EA6bB',
+    },
   };
 
   static web3;
