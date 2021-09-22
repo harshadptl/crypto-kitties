@@ -91,7 +91,7 @@ export default function CatAction(props) {
             />
           </InputGroup>
           <InputGroup.Append>
-            <InputGroup.Text>ETH</InputGroup.Text>
+            <InputGroup.Text>FRA</InputGroup.Text>
             <Button type="submit">
               {btnText}
               Kitty
@@ -111,7 +111,7 @@ export default function CatAction(props) {
       if (!offer) {
         break;
       }
-      const priceInEth = Service.web3.utils.fromWei(offer.price, 'ether');
+      const priceInEth = Service.web3.utils.fromWei(offer.price, 'findora');
       let sellButton;
       if (user !== offer.seller) {
         sellButton = offer.isSireOffer
@@ -155,7 +155,7 @@ export default function CatAction(props) {
             {' '}
             {priceInEth.toString(10)}
             {' '}
-            ETH
+            FRA
           </span>
           {sellButton}
         </div>
