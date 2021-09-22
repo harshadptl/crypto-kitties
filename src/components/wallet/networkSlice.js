@@ -7,6 +7,7 @@ export const EthNetworks = {
   '0x5': { id: '0x5', num: 5, name: 'Goerli Test', },
   '0x2a': { id: '0x2a', num: 42, name: 'Kovan Test', },
   '0x539': { id: '0x539', num: 1337, name: 'Ganache Local', },
+  '0x20B': { id: '0x20B', num: 523, name: 'Findora Devnet', },
 };
 
 const initialState = {
