@@ -42,7 +42,7 @@ export default function Home() {
   return (
     <div className="d-flex flex-column align-items-center">
       <div align="center" className="mt-2">
-        <h1>Academy Kitties</h1>
+        <h1>Findora Kitties</h1>
         <p>
           Collect and breed furrever freinds!
           <br />
