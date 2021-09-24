@@ -24,6 +24,7 @@ export default class ColorCattribute extends Cattribute {
 
   // returns the hex color value
   getCssColor() {
+    console.log(this.value);
     return colorObj[this.value]?.color;
   }
 
