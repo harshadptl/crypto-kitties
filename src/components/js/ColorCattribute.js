@@ -24,10 +24,10 @@ export default class ColorCattribute extends Cattribute {
 
   // returns the hex color value
   getCssColor() {
-    return colorObj[this.value].color;
+    return colorObj[this.value]?.color;
   }
 
   get valueName() {
-    return colorObj[this.value].name;
+    return colorObj[this.value]?.name;
   }
 }
