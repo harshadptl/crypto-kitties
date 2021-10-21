@@ -18,8 +18,8 @@ export default class Service {
     },
     '0x20b': {
       // Findora Devnet
-      kitty: '0x80E00dA22Af309ee10FbC4077F7232B4Db466426',
-      market: '0x1C042456b2ADfB970d5Dc0B19461483546c8b5F1',
+      kitty: '0x03745ED8e0C28F508FE376447E19e838C1407748',
+      market: '0x88D830E3155D34c8b80F267868043252883d897A',
     },
   };
 
