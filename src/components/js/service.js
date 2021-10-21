@@ -18,7 +18,7 @@ export default class Service {
     },
     '0x20b': {
       // Findora Devnet
-      kitty: '0x03745ED8e0C28F508FE376447E19e838C1407748',
+      kitty: '0xc4cECD18A797c4faAFf799f8bC7F2D669BE87956',
       market: '0x88D830E3155D34c8b80F267868043252883d897A',
     },
   };
